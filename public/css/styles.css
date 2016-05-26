@@ -1,0 +1,331 @@
+/*
+Bootstrap 3.1 overrides from http://bootply.com
+
+This CSS code should follow the 'bootstrap.css'
+in your HTML file.
+
+license: MIT
+author: bootply.com
+*/
+body {
+	padding-top: 0px;
+	background-image: url("../img/background.png") !important;
+	background-position: top left !important;
+	background-repeat: repeat-x !important;
+	background-color: #fff !important;
+}
+
+.head-user {
+	height: 40px;
+	padding: 5px;
+	background-color: #201B18;
+	color: #fff;
+}
+
+.head-user span {
+	padding: 0px 5px;
+	color: #fff;
+}
+
+.nav-page {
+	background-image: url("../img/nav-background.png") !important;
+	background-position: top left !important;
+	background-repeat: repeat-x !important;
+	background-color: #fff !important;
+	/*min-height: 100px!important; */
+	margin-bottom: 0;
+}
+
+.page-front {
+	position: relative;
+	overflow: hidden;
+	/* 	min-height: 485px;
+ */
+	padding: 0;
+}
+
+.page-front .img { /* position: absolute;
+	top: 0px;
+	left: opx; */
+	/*height: 100%;*/
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.page-division { /* height: 1.5%; */
+	height: 6px;
+	border: 0;
+	/* margin: 0; */
+	padding: 0;
+	/*  width: 100%; */
+}
+
+.page-division-green {
+	background-color: #19A14B;
+}
+
+/* ---------------Noticia -------------*/
+.header-news {
+	background-color: #39B54A;
+	/* padding-top: 10px;
+	padding-bottom: 10px;
+	min-height: 50px; */
+	color: #FFF;
+	/* font-weight: bold; */
+	border: 1px solid transparent;
+}
+
+/* .item-news:first-child {
+	padding-left: 0px;
+		padding-right: 0px;
+
+}
+
+.item-news:last-child {
+	padding-right: 0px;
+}
+
+.item-news (even) {
+	background: #ddd;
+		padding-left: 0px;
+ padding-right: 0px;
+}
+
+.item-news (odd) {
+	background: #fff
+} */
+.item-news {
+	background-color: #fff;
+	border: 1px solid transparent;
+	/*     padding-bottom: 20px;
+    margin-bottom: 20px; */
+	overflow: hidden;
+}
+
+.item-head,item-body {
+	position: relative;
+}
+
+.item-thumbnail {
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	line-height: 1.42857143;
+	background-color: #fff;
+	/*border: 1px solid #ddd;
+     border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out; */
+}
+
+.item-thumbnail img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+	border: 0;
+	width: 100%;
+}
+/* ============================== */
+.page-section3 {
+	min-height: 220p;
+	/* 	background-color: #000; */
+}
+
+.page-section3 .page-colum:first-child {
+	padding-left: 0px
+}
+
+.page-section3 .page-transparencia {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.page-section3 .page-transparencia h3 {
+	color: #7a7a7a;
+	font-weight: normal;
+	line-height: 35px;
+}
+
+.bold {
+	color: #424242;
+	font-weight: bold;
+}
+
+.green {
+	color: #16A740
+}
+
+.page-section3 .page-transparencia .caption {
+	min-height: 173px;
+	text-align: left;
+	padding-left: 15px;
+	padding-top: 25px;
+}
+
+.page-section3 .nav-tansparencia {
+	background-color: #16A740;
+	padding-top: 14px;
+	padding-bottom: 13px;
+	color: #fff;
+}
+
+.page-section3 .nav-tansparencia a {
+	color: #fff;
+}
+
+.page-section3  .background {
+	background-image: url("../img/trans-background.png") !important;
+	background-position: bottom left !important;
+	background-repeat: repeat-x !important;
+	background-color: #fff;
+}
+
+.padding-none {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/* ============ */
+.page-section3 .page-agenda {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.page-section3 .page-agenda .head-brackground {
+	background-color: #16A740;
+	color: #fff;
+	min-height: 35px;
+}
+
+.page-section3 .page-agenda .caption {
+	min-height: 134px
+}
+
+.page-section3 .nav-agenda {
+	min-height: 47px;
+	background-color: #e4e4e4;
+}
+
+.page-section3 .nav-agenda a {
+	display: inline-block;
+}
+
+.page-section3 .page-agenda .item-nav {
+	padding: 7px 0 0 0;
+}
+
+.page-section3 .page-agenda .item-nav .link {
+	
+}
+.page-section3 .page-agenda .item-nav .next {
+	padding: 0px;
+}
+.page-section3 .page-agenda .item-nav .prev {
+	padding: 0px;
+}
+/* ==========NOSOTROS */
+.page-nosotros {
+	background-image: url("../img/spot-nosotros.png") !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+	background-color: #fff;
+	min-height: 360px;
+}
+
+/* =================== */
+.foot-nav {
+	padding-top: 30px;
+	background-color: #1BA33A;
+	min-height: 170px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.foot-nav .titulo,.foot-page .titulo {
+	color: #EEBA00;
+}
+
+.foot-nav .caption a {
+	color: #fff;
+	font-size: 12px;
+}
+
+.foot-page {
+	padding-top: 20px;
+	text-align: center;
+	color: #9B9B9B;
+	background-color: #0A3B15;;
+	min-height: 60px;
+	color: #color;
+	text-align: center;
+}
+/* ================= */
+.page-section4 {
+	padding-top: 30px;
+	text-align: center;
+}
+
+.page-section4 .item-img,.page-section4 .item-vid {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	/*height: 180px;
+	 width: 100%; */
+	display: block;
+	position: relative;
+}
+/* ============GALERIA========== */
+.page-section4 .item-img .thumbnail,.page-section4 .item-vid .thumbnail
+	{ /* border: none;
+padding: 0px; */
+	margin-bottom: 0px;
+	padding: 0px;
+	border: none;
+	float: left;
+	/* height: 360px;
+	margin: 0 9px 9px 0; */
+	overflow: hidden;
+	position: relative;
+	/* width: 360px; */
+}
+
+.page-section4 .item-img .thumbnail a {
+	display: block;
+	position: relative;
+}
+
+.page-section4 .item-img .thumbnail a span {
+	background-color: rgba(22, 167, 64, 0.6);
+}
+
+.page-section4 .item-vid .thumbnail a span {
+	background-color: rgba(236, 185, 0, 0.6);
+}
+
+.page-section4 .item-img .thumbnail a span,.page-section4 .item-vid .thumbnail a span
+	{
+	display: none;
+	font-size: 1em;
+	font-weight: bold;
+	height: 100%;
+	padding-top: 100px;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	z-index: 100;
+	color: #fff;
+	left: 0;
+	top: 0;
+}
+
+.page-section4 .item-img .img,.page-section4 .item-vid .img {
+	height: 220px;
+	display: block;
+}

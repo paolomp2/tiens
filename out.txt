@@ -1,0 +1,6 @@
+
+                                                             
+  [Symfony\Component\Debug\Exception\FatalErrorException]    
+  Class 'Intervention\Image\ImageServiceProvider' not found  
+                                                             
+

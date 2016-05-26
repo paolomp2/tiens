@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: tiens
+        psr4_prefix: tiens
+        src_path: app
