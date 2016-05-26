@@ -139,7 +139,7 @@ class indexController extends Controller
     {
         $numEvents = 6;
         
-        $events = Event::where('country_id',Auth::user()->country_id)->orderBy('created_at', 'desc')->paginate($numEvents);
+        $events = Event::where('date_celebration','>=',Carbon::yesterday())->where('country_id',Auth::user()->country_id)->orderBy('created_at', 'desc')->paginate($numEvents);
         
 
         foreach ($events as $key => $event) {

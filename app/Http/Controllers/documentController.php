@@ -78,7 +78,7 @@ class documentController extends Controller
                         $height = 650;
                     }else{
 
-                        $width_s = 150;
+                        $width_s = (150*($dimension[0]))/$dimension[1];
                         $height_s = 150;
 
                         $width = (650*($dimension[0]))/$dimension[1];
