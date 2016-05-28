@@ -29,11 +29,11 @@
                       <div class="col-xs-12 col-sm-9">
                         <div class="m-10">                          
                           <?php $url="agenda/".$event['id_encode']?>
-                          <a href={!!$url!!}><h2>{!!$event->name!!}</h2></a>
+                          <h2><a href={!!$url!!}>{!!$event->name!!}</a></h2>
                           <h3>{!!$event->Category->name!!}</h3>
                           <p class="post-meta">{!!$event->date_format!!} a las {!!$event->hour_celebration!!}hrs</p>
                           <h4>{!!$event->site!!}</h4>
-                          <p>{!!$event->description!!}</p>
+                          <div class="text-cut">{!!$event->description!!}</div>
                         </div>
                       </div>
                     </div>

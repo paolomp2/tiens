@@ -11,7 +11,7 @@
       <div class="container">
         <div class="wrapper-content bg-transparent">
           <article class="new-main">
-            <div class="new-cover-image" style=background-image:url({!!asset("images/news/news_".$data['news_show']->id.".".$data['news_show']->extension)!!})></div>
+            <img class="new-cover-image" src="{!!asset("images/news/news_".$data['news_show']->id.".".$data['news_show']->extension)!!}">
             <div class="wrap-new">
               <h1>{{$data['news_show']->name}}</h1>
 

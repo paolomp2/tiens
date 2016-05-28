@@ -271,19 +271,41 @@
                   <div role="tabpanel" class="tab-pane" id="tab2-3">
                     <h3><span>LOS CUATRO PILARES</span> de una Red Exitosa</h3>
                     <p>TRABAJA LA MAYOR CANTIDAD DE TIMPO POSIBLE PARA ALCANZAR TUS OBJETIVOS EN CORTO TIEMPO</p>
-                    <div class="method" style="margin-bottom: 70px;">
-                      <div class="dinero">
-                        <img src="8pasos/images/dinero.png" style="width: 50px;" />
-                        <br>
-                        <span>Horas para perseguir tu sue&ntilde;o</span>
-                      </div>
-                      <div class="tiempo">
-                        <img src="8pasos/images/tiempo.png" style="width: 196px;" />
-                      </div>
-                      <div class="maletin">
-                        <img src="8pasos/images/maletin.png" style="width: 42px;" />
-                        <br>
-                        <span>Horas de trabajo regular</span>
+                    <div class="method text-center" style="margin-bottom: 70px;">
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                          <img src="8pasos/images/tiempo.png" style="width: 196px;" />
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                          <div class="space-time-step">
+                            <div class="row">
+                              <div class="col-xs-12">
+                                <div class="space-single-step">
+                                  <div class="row">
+                                    <div class="col-xs-3">
+                                      <img src="8pasos/images/maletin.png" style="width: 42px;" />
+                                    </div>
+                                    <div class="col-xs-9 text-left">
+                                      <span>Horas de trabajo regular</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-12">
+                                <div class="space-single-step">
+                                  <div class="row">
+                                    <div class="col-xs-3">
+                                      <img src="8pasos/images/dinero.png" style="width: 50px;" />
+                                    </div>
+                                    <div class="col-xs-9 text-left">
+                                      <span>Horas para perseguir tu sue&ntilde;o</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -372,7 +394,7 @@
               <h4>ENTONCES &iquest;QUE OTRAS FUENTES PUEDO A&ntilde;ADIR?</h4>
               <div class="btn-matriz">
                 <img src="8pasos/images/input.png" alt="">
-                <a href="#matriz-recopilacion" data-toggle="modal" class="image-link btn">MATRIX RECOPILACI&Oacute;N DE DATOS</a>
+                <a href="8pasos/images/matriz-recopilacion.png" class="image-link btn">MATRIX RECOPILACI&Oacute;N DE DATOS</a>
               </div>
             </div>
           </div>
@@ -439,7 +461,7 @@
                 <div class="col-xs-12">
                   <div class="btn-invitacion">
                     <img class="input" src="8pasos/images/input.png" alt="">
-                    <a href="#modelo-invitacion" data-toggle="modal" class="image-link"><img src="8pasos/images/btn-invitacion.png" alt=""></a>
+                    <a href="8pasos/images/modelo-invitacion.png" class="image-link"><img src="8pasos/images/btn-invitacion.png" alt=""></a>
                   </div>
                 </div>
               </div>
@@ -710,7 +732,7 @@
 
               <div class="btn-semaforo">
                 <img class="input" src="8pasos/images/input.png" alt="">
-                <a href="#tecnica-semaforo" data-toggle="modal" class="image-link"><img src="8pasos/images/btn-semaforo.png" alt=""></a>
+                <a href="8pasos/images/semaforo.png" class="image-link"><img src="8pasos/images/btn-semaforo.png" alt=""></a>
               </div>
             </div>
           </div>
@@ -898,6 +920,8 @@
 
       // Initialize WOW.js Scrolling Animations
       new WOW().init();
+
+      $('.image-link').magnificPopup({type:'image'});
 
   })(jQuery); // End of use strict
 

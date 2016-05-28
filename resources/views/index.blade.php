@@ -73,7 +73,7 @@
                 {!!HTML::link($url,$news->name)!!}
               </h3>
                         <?php $news->description=mb_strimwidth($news->description, 0, 180, "...");?>
-                        <p>{!!$news->description!!}</p>
+                        <div class="text-cut">{!!$news->description!!}</div>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@
                     <div class="col-xs-12 col-without-padding">
                         <div class="bot-cultura">
                             <div class="row">
-                                <div class="col-xs-offset-4 col-xs-8">
+                                <div class="col-xs-offset-0 col-xs-12 col-md-offset-4 col-md-8">
                                     <div class="row">
                                         <div class="col-xs-4">
                                             <a href="/institucion">
@@ -200,7 +200,7 @@
         </div>
     </section>
     <div class="container">
-        <section class="space-double-bottom">
+        <section class="space-bottom">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
                     <div class="lideres">
@@ -245,9 +245,10 @@
                                         <div class="row">
                                             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
                                                 <?php $training->name=mb_strimwidth($training->name, 0, 40, "...");?>
-                                                <h5>Banco de materiales<br /><span>{!!$training->name!!}</span></h5>
+                                                <h5>Banco de materiales</h5>
+                                                <div class="text-cut">{!!$training->name!!}</div>
                                                 <?php $training->description=mb_strimwidth($training->description, 0, 100, "...");?>
-                                                <p>{!!$training->description!!}</p>
+                                                <div class="text-cut-3">{!!$training->description!!}</div>
                                                 <p class="date-conocimiento">
                                                     <time datetime="2015-11-29">{!!$training['date']!!}</time>
                                                 </p>

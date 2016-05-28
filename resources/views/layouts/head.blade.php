@@ -10,6 +10,7 @@
 	{!!Html::style('index/css/owl.theme.default.css')!!}
 	{!!Html::style('index/css/style.css')!!}
 	{!!Html::style('index/css/magnific-popup.css')!!}
+	{!!Html::style('index/css/bootstrap.vertical-tabs.css')!!}
 
 	{!!Html::style('alerts/themes/alertify.core.css')!!}
 	{!!Html::style('alerts/themes/alertify.default.css')!!}

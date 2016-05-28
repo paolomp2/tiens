@@ -130,6 +130,10 @@ section {
       font-size: 20px;
       line-height: 20px;
       border-radius: 5px; }
+    section.step.step-2 .step-content .method span {
+      color: #fff;
+      font-size: 20px;
+    }
     section.step.step-2 .step-content .method ul {
       padding-left: 30px; }
       section.step.step-2 .step-content .method ul li {

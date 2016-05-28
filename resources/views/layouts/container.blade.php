@@ -1,10 +1,11 @@
 <nav class="navbar navbar-inverse navbar-top">
     <div class="container-fluid">
-        <div class="pull-right" role="search">
+        <div class="menu-navbar" role="search">
             <ul class="nav navbar-nav">
                 <li>
                     <a href="/ayuda" class="notifications">
-                        <img src={!!asset( "index/images/rsz_call.png")!!} alt="" class="notif" /><span></span>&nbsp; Servicio al cliente
+                        <img src={!!asset( "index/images/rsz_call.png")!!} alt="" class="notif" />
+                        <span class="nav-text">Servicio al cliente</span>
                     </a>
                 </li>
                 <li>
@@ -12,7 +13,8 @@
                 </li>
                 <li>
                     <a href="/notificaciones" class="notifications">
-                        <img src={!!asset( "index/images/bulb.png")!!} alt="" class="notif" /> Notificaciones
+                        <img src={!!asset( "index/images/bulb.png")!!} alt="" class="notif" />
+                        <span class="nav-text">Notificaciones</span>
                     </a>
                 </li>
                 <li>

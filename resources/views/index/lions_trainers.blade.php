@@ -82,21 +82,17 @@
                                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                                     <div class="box-cap">
                                                         <div class="row">
-                                                            <div class="col-xs-6 col-sm-5 col-md-4 col-lg-4">
+                                                            <div class="col-xs-12 col-sm-4">
                                                                 <?php $route_bg_trainer="background-image:url('images/trainer/trainer_".$trainer->id.".".$trainer->extension."')";?>
                                                                 <div class="cover-capacitaciones" style={!!$route_bg_trainer!!}>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-xs-6 col-sm-7 col-md-8 col-lg-8">
+                                                            <div class="col-xs-12 col-sm-8">
                                                                 <h3>{!!$trainer->name!!}</h3>
                                                                 <?php $trainer->description=mb_strimwidth($trainer->description, 0, 200, "...");?>
-                                                                <p class="hidden-xs">{!!$trainer->description!!}</p>
+                                                                <p>{!!$trainer->description!!}</p>
                                                             </div>
                                                         </div>
-                                                        <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
-<p>{!!$trainer->description!!}</p>
-</div>
-
                                                     </div>
                                                 </div>
                                                 @endforeach()

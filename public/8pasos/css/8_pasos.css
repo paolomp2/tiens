@@ -130,6 +130,13 @@ section {
       font-size: 20px;
       line-height: 20px;
       border-radius: 5px; }
+    section.step.step-2 .step-content .method span {
+      color: #fff;
+      font-size: 20px; }
+    section.step.step-2 .step-content .method .space-time-step {
+      margin: 20px 0; }
+    section.step.step-2 .step-content .method .space-single-step {
+      margin: 10px 0; }
     section.step.step-2 .step-content .method ul {
       padding-left: 30px; }
       section.step.step-2 .step-content .method ul li {

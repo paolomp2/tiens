@@ -28,12 +28,16 @@ h5 {
     margin: 0;
 }
 
+.pagination {
+    margin: 17.5px 0;
+}
+
 .pagination > li > a,
 .pagination > li > span {
     background-color: #15a03d;
     border: 1px solid #15a03d;
     color: #fff;
-    margin: 0 2.5px;
+    margin: 2.5px;
 }
 
 .pagination > li > a:hover,
@@ -186,9 +190,9 @@ body {
     padding-left: 0;
 }
 
-.new-main .new-cover-image {
-    background-size: cover;
-    height: 390px;
+.new-main img.new-cover-image {
+    width: 100%;
+    height: auto;
     margin-bottom: 40px;
 }
 
@@ -234,6 +238,13 @@ body {
     font-weight: lighter;
     margin-top: 6px;
     margin-bottom: 6px;
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-top .navbar-text {
+        display: none;
+    }
 }
 
 .navbar-top .navbar-nav > li > a {
@@ -245,9 +256,33 @@ body {
     padding-bottom: 6px;
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+    .menu-navbar {
+        float: right;
+    }
+}
+
 .navbar-top .notif {
     display: block;
     float: left;
+    margin-right: 5px;
+}
+
+.navbar-top span.nav-text {
+    border-right: medium none;
+    width: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-top span.nav-text {
+        display: inline-block;
+        border-right: 1px solid white;
+        width: 150px;
+    }    
 }
 
 .navbar-top > li {
@@ -356,8 +391,14 @@ body {
     float: left;
     font-size: 20px;
     line-height: 50px;
-    margin: 0 0 0 50px;
+    margin: 0 0 0 15px;
     text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+    .last-news .top-news h3 {
+        margin-left: 50px;
+    }
 }
 
 .last-news .top-news a {
@@ -365,7 +406,13 @@ body {
     float: right;
     font-size: 16px;
     line-height: 50px;
-    margin-right: 100px;
+    margin-right: 70px;
+}
+
+@media screen and (min-width: 768px) {
+    .last-news .top-news a {
+        margin-right: 100px;
+    }
 }
 
 .last-news .body-new {
@@ -374,11 +421,13 @@ body {
 
 .last-news .body-new figure {
     margin-bottom: 25px;
+    height: 215px;
+    overflow: hidden;
 }
 
 .last-news .body-new figure img {
     max-width: 100%;
-    height: 215px;
+    height: auto;
 }
 
 .last-news .body-new .wrap-new {
@@ -387,16 +436,39 @@ body {
     text-align: center;
 }
 
-.last-news .body-new .wrap-new h3 {
+.last-news .body-new .wrap-new h3, .last-news .body-new .wrap-new a {
     color: #15a03d;
     font-size: 23px;
     margin: 0 0 10px;
 }
 
-.last-news .body-new .wrap-new p {
-    margin: 0;
+.last-news .body-new .wrap-new .text-cut {
     color: #4b4b4b;
     font-size: 16px;
+    overflow: hidden;
+    position: relative;
+    line-height: 1.4em;
+    max-height: 4.2em;
+    text-align: justify;
+    margin-right: -1em;
+    padding-right: 1em;
+}
+
+.last-news .body-new .wrap-new .text-cut:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.last-news .body-new .wrap-new .text-cut:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
 }
 
 .last-news .owl-theme .owl-nav {
@@ -490,6 +562,13 @@ body {
     background: -ms-linear-gradient(top, #fff, #f9f9f9);
     background: -o-linear-gradient(top, #fff, #f9f9f9);
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#f9f9f9');
+    margin-bottom: 45px;
+}
+
+@media screen and (min-width: 768px) {
+    .cultura-organizacional {
+        margin-bottom: 0;
+    }
 }
 
 .cultura-organizacional .wrapper-cultura {
@@ -595,6 +674,10 @@ body {
     }
 }
 
+.lideres, .conocimientos {
+    margin: 10px 0;
+}
+
 .lideres {
     min-height: 260px;
 }
@@ -643,14 +726,16 @@ body {
 }
 
 .lideres .owl-theme .owl-nav {
-    bottom: -12px;
-    left: -104px;
+    top: -50px;
+    right: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
     .lideres .owl-theme .owl-nav {
-        right: -386px;
-        top: -50px;
+        bottom: -10px;
+        left: -105px;
+        top: auto;
+        right: auto;
     }
 }
 
@@ -678,12 +763,66 @@ body {
     color: #f3be00;
     line-height: 20px;
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 3px;
 }
 
-.box-190 .wrap-190 h5 span {
+.box-190 .wrap-190 .text-cut {
     color: #313131;
     font-size: 18px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    line-height: 1em;
+    max-height: 2em;
+    text-align: justify;
+    margin-right: -1em;
+    padding-right: 1em;
+}
+
+.box-190 .wrap-190 .text-cut:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.box-190 .wrap-190 .text-cut:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
+}
+
+.box-190 .wrap-190 .text-cut-3 {
+  color: #606060;
+  font-size: 12px;
+  overflow: hidden;
+  position: relative;
+  line-height: 1em;
+  max-height: 3em;
+  text-align: justify;
+  margin-right: -1em;
+  padding-right: 1em;
+}
+
+.box-190 .wrap-190 .text-cut-3:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.box-190 .wrap-190 .text-cut-3:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
 }
 
 .box-190 .wrap-190 p {
@@ -709,7 +848,7 @@ body {
 .gallery-boxes h4 {
     color: #000;
     font-size: 36px;
-    margin: 0 0 50px;
+    margin: 0 0 25px;
     text-transform: uppercase;
 }
 
@@ -793,6 +932,10 @@ body {
 
 .overflow-text {
     text-overflow: ellipsis;
+}
+
+.gallery-events, .gallery-videos {
+    margin: 20px 0;
 }
 
 .gallery-events .wrap-box-hover {
@@ -987,6 +1130,16 @@ body {
     opacity: 1;
 }
 
+.sidebar {
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .sidebar {
+        margin-top: 0px;
+    }
+}
+
 .sidebar-inverse .box-sidebar .top-sidebar {
     background-color: #15a03d;
     font-weight: bold;
@@ -1044,13 +1197,44 @@ body {
 }
 
 .recursos .body-recursos .box-recurso .wrap-recurso h2 {
-    color: #3e3e3e;
     font-size: 24px;
+}
+
+.recursos .body-recursos .box-recurso .wrap-recurso h2 a {
+    color: #3e3e3e;
 }
 
 .recursos .body-recursos .box-recurso .wrap-recurso p {
     color: #6d6e71;
     font-size: 14px;
+}
+
+.recursos .body-recursos .box-recurso .wrap-recurso .text-cut {
+  color: #6d6e71;
+  font-size: 14px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  line-height: 1.4em;
+  max-height: 4.2em;
+  text-align: justify;
+  margin-right: -1em;
+  padding-right: 1em;
+}
+.recursos .body-recursos .box-recurso .wrap-recurso .text-cut:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.recursos .body-recursos .box-recurso .wrap-recurso .text-cut:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
 }
 
 .recursos .body-recursos .box-recurso .wrap-recurso p.post-meta {
@@ -1531,9 +1715,10 @@ body {
 .album-gallery .box-gallery {
     background-color: #f6e08f;
     cursor: pointer;
-    margin: 5px;
+    margin: 10px 0;
     padding: 2px;
     float: left;
+    width: 100%;
 }
 
 .album-gallery .box-gallery:hover {
@@ -1544,18 +1729,19 @@ body {
     background-position: center top;
     background-size: cover;
     opacity: 1;
-    height: 110px;
-    width: 110px;
+    height: 150px;
+    width: 100%;
     display: block;
 }
 
 @media screen and (min-width: 768px) {
-    .album-gallery .box-gallery {
-        margin: 10px;
-    }
     .album-gallery .box-gallery .cover-box {
-        height: 116px;
-        width: 116px;
+        height: 140px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .album-gallery .box-gallery .cover-box {
+        height: 110px;
     }
 }
 
@@ -1744,16 +1930,47 @@ body {
 }
 
 .box-eventos .list-eventos .wrapper-list-eventos .box-evento h2 {
-    color: #f0bc00;
     font-size: 24px;
     font-weight: bold;
     margin: 0 0 5px;
+}
+
+.box-eventos .list-eventos .wrapper-list-eventos .box-evento h2 a {
+    color: #f0bc00;
 }
 
 .box-eventos .list-eventos .wrapper-list-eventos .box-evento p {
     color: #6d6e71;
     font-size: 20px;
     margin: 0;
+}
+
+.box-eventos .list-eventos .wrapper-list-eventos .box-evento .text-cut {
+    color: #6d6e71;
+    font-size: 20px;
+    overflow: hidden;
+    position: relative;
+    line-height: 1.4em;
+    max-height: 4.2em;
+    text-align: justify;
+    margin-right: -1em;
+    padding-right: 1em;
+    margin-right: 0;
+}
+.box-eventos .list-eventos .wrapper-list-eventos .box-evento .text-cut:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.box-eventos .list-eventos .wrapper-list-eventos .box-evento .text-cut:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
 }
 
 .box-eventos .list-eventos .wrapper-list-eventos .box-evento p.post-meta,
@@ -1815,17 +2032,47 @@ body {
 }
 
 .box-new article.new .new-content h2 {
-    color: #1ba33a;
     font-size: 22px;
     line-height: 22px;
     margin: 0 0 10px;
     text-transform: uppercase;
 }
 
+.box-new article.new .new-content h2 a {
+    color: #1ba33a;
+}
+
 .box-new article.new .new-content p {
     color: #2b2b2b;
     font-size: 16px;
     margin: 0;
+}
+
+.box-new article.new .new-content .text-cut {
+    color: #2b2b2b;
+    font-size: 16px;
+    overflow: hidden;
+    position: relative;
+    line-height: 1.4em;
+    max-height: 4.2em;
+    text-align: justify;
+    margin-right: -1em;
+    padding-right: 1em;
+}
+.box-new article.new .new-content .text-cut:before {
+    content: '...';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.box-new article.new .new-content .text-cut:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1em;
+    height: 1em;
+    margin-top: 0.2em;
+    background: white;
 }
 
 .box-new article.new .more-data {
@@ -1860,7 +2107,13 @@ body {
     font-size: 35px;
     height: 50px;
     margin: 0;
-    padding: 0 16px;
+    padding: 0 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .owl-theme .owl-nav [class*='owl-'] {
+        padding: 0 16px;
+    }
 }
 
 .owl-theme .owl-nav [class*='owl-']:hover {

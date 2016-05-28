@@ -234,7 +234,7 @@
                            <div class="bg-comunicate">
                               <div class="row">
                                  <div class="col-xs-12 col-sm-4">
-                                    <?php $route_bg_comunication="background-image:url('index/images/faq.jpg')";?>
+                                    <?php $route_bg_comunication="background-image:url('index/images/bg-comunicate.jpg')";?>
                                     <div class="cover-comunicate" style={!!$route_bg_comunication!!}></div>
                                  </div>
                                 <div class="col-xs-12 col-sm-8">
@@ -247,26 +247,15 @@
                                         <img src="index/images/email-icon.png" style="width: 33px; margin-left: 12px;" /> 
                                       </a>
                                     </p>
-                                    <div class="col-xs-4">
-                                      <ul>
-                                        <li>Per&uacute;: <a href="tel:6146969">(1) 614-6969</a></li>
-                                        <li>Ecuador: <a href="tel:2380528">(4) 238-0528</a></li>
-                                        <li>Colombia: <a href="tel:7440880">(1) 744-0880</a></li>
-                                      </ul>
+                                    <div class="row">
+                                      <div class="col-xs-12 col-sm-6 col-lg-4">Per&uacute;: <a href="tel:6146969">(1) 614-6969</a></div>
+                                      <div class="col-xs-12 col-sm-6 col-lg-4">Ecuador: <a href="tel:2380528">(4) 238-0528</a></div>
+                                      <div class="col-xs-12 col-sm-6 col-lg-4">Colombia: <a href="tel:7440880">(1) 744-0880</a></div>
+                                      <div class="col-xs-12 col-sm-6 col-lg-4">Bolivia: <a href="tel:2971461">(1) 297-1461</a></div>
+                                      <div class="col-xs-12 col-sm-6 col-lg-4">M&eacute;xico: <a href="tel:52810453">(1) 5-281-0453</a></div>
+                                      <div class="col-xs-12 col-sm-6 col-lg-4">Chile: <a href="tel:">----</a></div>
+                                      <div class="col-xs-12 col-sm-6">Venezuela: <a href="tel:----2127626250">(1) 212-762-6250</a></div>
                                     </div>
-                                    <div class="col-xs-4">
-                                      <ul>
-                                        <li>Bolivia: <a href="tel:2971461">(1) 297-1461</a></li>
-                                        <li>M&eacute;xico: <a href="tel:52810453">(1) 5-281-0453</a></li>
-                                        <li>Chile: <a href="tel:">----</a></li>
-                                      </ul>
-                                    </div>
-                                    <div class="col-xs-4">
-                                      <ul>
-                                        <li>Venezuela: <a href="tel:----2127626250">(1) 212-762-6250</a></li>
-                                      </ul>
-                                    </div>
-                                    <div class="clearfix"></div>
                                   </div>
                                 </div>
                               </div>

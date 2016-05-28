@@ -53,7 +53,7 @@
                               {!!HTML::link($url,$training->name)!!}
                             </h2>
                             <?php $training->description=mb_strimwidth($training->description, 0, 220, "...");?>
-                            <p>{!!$training->description!!}</p>
+                            <div class="text-cut">{!!$training->description!!}</div>
                             <p class="post-meta">{!!$training->created_at!!}</p>
                           </div>
                         </div>

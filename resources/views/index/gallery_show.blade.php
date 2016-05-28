@@ -28,10 +28,12 @@
               </div>
             </div>
             <div class="col-xs-12 popup-gallery">
-              @foreach($data['images'] as $image)  
-              <div class="box-gallery">
-                <a class="cover-box" href={!!asset("documentos/940x650_".$image->id.".".$image->extension)!!} title="" style=background-image:url({!!asset("documentos/150x150_".$image->id.".".$image->extension)!!})></a>
-              </div>
+              @foreach($data['images'] as $image)
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2">
+                  <div class="box-gallery">
+                    <a class="cover-box" href={!!asset("documentos/940x650_".$image->id.".".$image->extension)!!} title="" style=background-image:url({!!asset("documentos/150x150_".$image->id.".".$image->extension)!!})></a>
+                  </div>
+                </div>
               @endforeach              
             </div>
             <div class="col-xs-12">

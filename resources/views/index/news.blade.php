@@ -30,7 +30,7 @@
                     <div class="new-content">
                       <?php $url ="noticias/".$news['id_encode'] ?>
                       <h2><a href={!!$url!!}>{!!$news->name!!}</a></h2>
-                      <p>{!!$news->description!!}</p>
+                      <div class="text-cut">{!!$news->description!!}</div>
                       <div class="more-data">
                         <div class="row">
                           <div class="col-xs-12 col-md-9">
