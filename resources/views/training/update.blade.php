@@ -109,7 +109,7 @@
 														"</span> <b>".
 														$document->original_name.
 														"</b> <i>(".
-														$document->size."MB)</i><span class='quickMenu'><a id=".$document->id." href=#".
+														$document->size."MB)</i><span id=".$document->id." class='quickMenu'><a id=".$document->id." href=#".
 														" class='halflings-icon remove'><i></i></a><span class='label label-success'>Subido</span></li>"
 														;
 												echo $document_li;

@@ -19,7 +19,7 @@ $("#file_document").change(function(e){
 	var files = fileSelect.files;
 	var sessionMath = $("#sessionMath").val();
 	var id_file = document.getElementById('numFiles').value;
-	var edit_flag = document.getElementById('edit_flag').value;
+	//var edit_flag = document.getElementById('edit_flag').value;
 	var model = $("#model").val();//Modelo desde donde se llama a la funci'on
 	var i = 0;
 	var file_size=0;
@@ -179,6 +179,7 @@ $('#files').on('click', '.quickMenu', function(e) {
     e.preventDefault();
     var model = $("#model").val();//Modelo desde donde se llama a la funci'on
 
+    var id = $(this).attr('id');
     switch(model){
     	case "1":
     		$(this).parent().parent().remove();
@@ -190,7 +191,7 @@ $('#files').on('click', '.quickMenu', function(e) {
     
 
     var token = $("#csrf-token").val();
-    var id = $(this).attr('id');
+    
 
     console.log(id);
 

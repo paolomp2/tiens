@@ -137,7 +137,7 @@ class trainingController extends Controller
         );
 
         /*Adding Countries*/
-
+        $not = new Notification;
         switch (Auth::user()->rol_id) {
             case 1:
                 foreach ($request->countries as $countries_id_less1) {
@@ -208,7 +208,7 @@ class trainingController extends Controller
             $i++;
         }
         //loading documents
-        $num_docs_total = Document::withTrashed()->where('father_id',$id)->where('model_type',2)->get();
+        $num_docs_total = Document::where('father_id',$id)->where('model_type',2)->get();
         //echo dd($num_docs_total);
         $num_docs=0;
         foreach ($num_docs_total as $docs) {
@@ -261,10 +261,11 @@ class trainingController extends Controller
 
         /*Training*/
         $training = Training::find($id);
+        //echo dd($training);
         $training->name = $request->title;
         $training->description = $request->content;
         
-            //Recuperando la ID de la categor'ia
+                //Recuperando la ID de la categor'ia
             $categories = Training_category::get();
         $training->category_id = $categories[$request->category]->id;
         if(!is_null($request->file('imagen')))

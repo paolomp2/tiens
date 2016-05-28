@@ -153,6 +153,7 @@ class documentController extends Controller
 
     public function delete($id)
     {
+        echo $id;
         $document = Document::find($id)->delete();
     }
 }
