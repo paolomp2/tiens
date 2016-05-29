@@ -106,17 +106,17 @@
                             <div class="row">
                                 <div class="col-xs-offset-0 col-xs-12 col-md-offset-4 col-md-8">
                                     <div class="row">
-                                        <div class="col-xs-4">
+                                        <div class="b-left col-xs-4">
                                             <a href="/institucion">
                                                 <span>Quiénes Somos</span>
                                             </a>
                                         </div>
-                                        <div class="col-xs-4">
+                                        <div class="b-left col-xs-4">
                                             <a href="/institucion">
                                                 <span>Visión y Misión</span>
                                             </a>
                                         </div>
-                                        <div class="col-xs-4">
+                                        <div class="b-left col-xs-4">
                                             <a href="/institucion">
                                                 <span>Valores</span>
                                             </a>

@@ -3,7 +3,7 @@
 
 <head>
 
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -80,9 +80,6 @@
                       <div class="col-xs-9 col-sm-6">
                         <h2>PASOS AL &Eacute;XITO</h2>
                       </div>
-                      <div class="col-xs-12">
-                        <p>Lorem ipsum dolor sit amet, consecte tur adipiscing eli uisque ornare dictum mauris</p>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -124,7 +121,7 @@
                 </div>
               </div>
               <div class="text-center page-next">
-                <a href="#step-1" class="btn page-scroll">QUIERO LLEGAR AL &Eacute;ITO <br /><i class="fa fa-angle-down"></i></a>
+                <a href="#step-1" class="btn page-scroll">QUIERO LLEGAR AL &Eacute;XITO <br /><i class="fa fa-angle-down"></i></a>
               </div>
           </div>
       </div>
@@ -152,7 +149,7 @@
                     <li>A m&aacute;s sue&ntilde;os, m&aacute;s recompensas</li>
                   </ul>
                   <div class="wrap-cont">
-                    <h3>REAL&Iactue;ZALO</h3>
+                    <h3>REAL&Iacute;ZALO</h3>
                     <h4>LAS TRES ETAPAS DEL PODER DE TUS SUE&Ntilde;OS</h4>
                     <h5>"YO PUEDO"</h5>
                     <p>posees las aptitudes necesarias para alcanzar tu meta</p>
@@ -254,8 +251,8 @@
                     <div class="method">
                       <p>Recordemos el M&eacute;todo 9 6 3 1</p>
                       <ul>
-                        <li><span class="number">9</span> Contactar a <span>9</span> person&Oacute;</li>
-                        <li><span class="number">6</span> De estas, con <span>6</span> log&Oacute;r&iacute;a entrevistas</li>
+                        <li><span class="number">9</span> Contactar a <span>9</span> personas</li>
+                        <li><span class="number">6</span> De estas, con <span>6</span> lograr&iacute;a entrevistas</li>
                         <li><span class="number">3</span> <span>3</span> de ellos mostrar&iacute;an inter&eacute;s</li>
                         <li><span class="number">1</span> <span>1</span> logra afiliarse y ser distribuidor</li>
                       </ul>
@@ -263,7 +260,7 @@
                   </div>
                   <div role="tabpanel" class="tab-pane" id="tab2-2">
                     <h3><span>LOS CUATRO PILARES</span> de una Red Exitosa</h3>
-                    <p>CADA LINEADEBE CONTAR CON MULTIPLES GENERACIONES DE AFILIADOS HAS QUE TUS LINEAS DESARROLLEN 10  NIVELES HACIA ABAJO</p>
+                    <p>CADA LINEA DEBE CONTAR CON MULTIPLES GENERACIONES DE AFILIADOS HAS QUE TUS LINEAS DESARROLLEN 10  NIVELES HACIA ABAJO</p>
                     <div class="method">
                       <img src="8pasos/images/8pasos-10-niveles.png" />
                     </div>
@@ -362,7 +359,7 @@
                 <div class="col-xs-12">
                   <ul>
                     <li>Crea una lista de 100 clientes potenciales que se unir&aacute;n a tu Red.</li>
-                    <li>No prejuzgues, coloca todos los nombres que se te vienen a la me&Oacute;e.</li>
+                    <li>No prejuzgues, coloca todos los nombres que se te vienen a la mente.</li>
                     <li>Proponte incluir un n&uacute;mero determinado de personas por d&iacute;a.</li>
                   </ul>
                 </div>
@@ -493,7 +490,7 @@
                 <div class="col-xs-12">
                   <div class="lists">
                     <ul class="list-1">
-                      <li>A las personas que has invitado, tienes que presentarles: la eficacia de nuestros productos y los beneficios de formar redes en TIEN&Oacute;</li>
+                      <li>A las personas que has invitado, tienes que presentarles: la eficacia de nuestros productos y los beneficios de formar redes en TIENS</li>
                       <li>Al cierre de toda Presentaci&oacute;n de la Oportunidad, se deber&iacute;a lograr 3 objetivos:</li>
                     </ul>
                     <ol class="list-2">
@@ -611,7 +608,7 @@
                       <h3>Estructura de la cita:</h3>
                       <ul>
                         <li><span>La estructura puede ser ligeramente flexible seg&uacute;n el perfil del invitado y tu experiencia.</span></li>
-                        <li><span>Procura &quot;Romper el hielo&quot; ùal inicio y en todo momento que se pierda inter&eacute;s a la conversaci&oacute;n.</span></li>
+                        <li><span>Procura &quot;Romper el hielo al inicio y en todo momento que se pierda inter&eacute;s a la conversaci&oacute;n.</span></li>
                         <li><span>Habla de: la empresa, el productos y el negocios TIENS</span></li>
                       </ul>
                     </div>
@@ -719,7 +716,7 @@
           </div>
           <div class="col-xs-12 col-sm-6 col-xs-offset-0 col-sm-offset-1">
             <div class="right-step-6">
-              <h3>&iquest;CU&Aacute;ÅNDO SE INICIA EL SEGUIMIENTO?</h3>
+              <h3>&iquest; CU&Aacute;NDO SE INICIA EL SEGUIMIENTO?</h3>
               <p>Cuando la persona invitada a la que se le present&oacute; la Oportunidad del Negocio, no da una respuesta favorable inmediata. Empieza el SEGUIMIENTO.</p>
               <p>Es recomendable indagar: &iquest;Qu&eacute; fue lo que m&aacute;s le gust&oacute; de la presentaci&oacute;n? &iquest;Qu&eacute; requiere conocer como complemento a la presentaci&oacute;n?</p>
               <h3>&iquest;D&Oacute;NDE INICIA EL SEGUIMIENTO?</h3>
@@ -820,7 +817,7 @@
               <span class="dup-green"><span>P</span>ROFESIONAL</span>
               <span class="dup-green"><span>A</span>DAPTADO</span>
               <span class="dup-green"><span>S</span>IMPLE</span>
-              <span class="dup-green"><span>O</span>RIENTADA AL NEGOCIO</span>
+              <span class="dup-green"><span>O</span>RIENTADO AL NEGOCIO</span>
               <h4>OCHO indicadores <br /> de una red exitosa</h4>
               <h3>MAYOR N&Uacute;MERO DE AFILIADOS</h3>
               <ul class="row">

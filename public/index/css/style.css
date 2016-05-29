@@ -612,15 +612,37 @@ body {
     height: 50px;
     padding: 15px 0;
     text-align: center;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.cultura-organizacional .bot-cultura .b-left {
+    border-left: 1px solid #7cce94;
+}
+
+.cultura-organizacional .bot-cultura .b-left:first-child {
+    border-left: medium none;
 }
 
 .cultura-organizacional .bot-cultura a span {
-    border-left: 1px solid #7cce94;
+    border-left: medium none;
     display: block;
 }
 
 .cultura-organizacional .bot-cultura .col-xs-4:first-child a span {
     border-left: medium none;
+}
+
+@media (min-width: 768px) {
+    .cultura-organizacional .bot-cultura a {
+        font-size: 14px;
+    }
+    .cultura-organizacional .bot-cultura .b-left {
+        border-left: medium none;
+    }
+    .cultura-organizacional .bot-cultura a span {
+        border-left: 1px solid #7cce94;
+    }
 }
 
 .growing {
