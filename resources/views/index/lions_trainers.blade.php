@@ -78,7 +78,7 @@
                                         </div>
                                         <div class="body-capacitaciones">
                                             <div class="row">
-                                                @foreach($data['trainers'] as $trainer)
+                                                @foreach($data['trainers'] as $key => $trainer)
                                                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                                                     <div class="box-cap">
                                                         <div class="row">
@@ -89,12 +89,14 @@
                                                             </div>
                                                             <div class="col-xs-12 col-sm-8">
                                                                 <h3>{!!$trainer->name!!}</h3>
-                                                                <?php $trainer->description=mb_strimwidth($trainer->description, 0, 200, "...");?>
                                                                 <p>{!!$trainer->description!!}</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+                                                @if($key % 2 == 1)
+                                                    <div class="clearfix"></div>
+                                                @endif 
                                                 @endforeach()
                                             </div>
                                         </div>

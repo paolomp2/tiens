@@ -244,7 +244,6 @@
                                     <div class="wrap-conocimientos wrap-190">
                                         <div class="row">
                                             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-                                                <?php $training->name=mb_strimwidth($training->name, 0, 40, "...");?>
                                                 <h5>Banco de materiales</h5>
                                                 <div class="text-cut">{!!$training->name!!}</div>
                                                 <?php $training->description=mb_strimwidth($training->description, 0, 100, "...");?>
