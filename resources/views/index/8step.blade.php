@@ -918,7 +918,17 @@
       // Initialize WOW.js Scrolling Animations
       new WOW().init();
 
-      $('.image-link').magnificPopup({type:'image'});
+      $('.image-link').magnificPopup({
+        type:'image',
+        callbacks: {
+          open: function() {
+            $('html, body').css('overflowY', 'hidden');
+          },
+          close: function() {
+            $('html, body').removeAttr("style");
+          }
+        }
+      });
 
   })(jQuery); // End of use strict
 

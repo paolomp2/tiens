@@ -295,6 +295,7 @@ section {
           display: none;
           top: -40px;
           left: -180px;
+          z-index: -1;
           position: absolute; }
     section.step.step-3 .bg-shadow:after {
       background-color: #313131;
@@ -350,6 +351,7 @@ section {
           display: none;
           top: -50px;
           left: -220px;
+          z-index: -1;
           position: absolute; }
   section.step.step-5 {
     background-image: url("../images/bg-section-5.jpg"); }
@@ -537,6 +539,7 @@ section {
           display: none;
           top: -40px;
           left: -180px;
+          z-index: -1;
           position: absolute; }
   section.step.step-7 {
     background-image: url("../images/bg-section-7.jpg"); }
