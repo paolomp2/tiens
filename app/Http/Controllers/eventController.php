@@ -135,6 +135,12 @@ class eventController extends Controller
             case 'Friday':
                 $day_name = "Viernes";
                 break;
+            case 'Saturday':
+                $day_name = "Sábado";
+                break;
+            case 'Sunday':
+                $day_name = "Domingo";
+                break;
             default:
                 $day_name = "Error CD08";
                 break;
