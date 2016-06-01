@@ -191,9 +191,10 @@ body {
 }
 
 .new-main img.new-cover-image {
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    margin-bottom: 40px;
+    margin: 0 auto 40px;
+    display: block;
 }
 
 .new-main h1 {
