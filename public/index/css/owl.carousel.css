@@ -67,9 +67,16 @@
     position: relative;
     min-height: 1px;
     float: left;
+    visibility: hidden;
     -webkit-backface-visibility: hidden;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none; }
+  .owl-carousel .owl-item.active {
+    visibility: visible; }
+  .owl-carousel .owl-item.cloned {
+    visibility: hidden; }
+  .owl-carousel .owl-item.cloned.active {
+    visibility: visible; }
   .owl-carousel .owl-item img {
     display: block;
     width: 100%;
